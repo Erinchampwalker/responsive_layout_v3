@@ -1,0 +1,26 @@
+ body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ /* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+    
+
+}
+@media (min-width: 1025px) {
+    
+       
+      
+      
+       
+}
