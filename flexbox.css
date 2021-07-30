@@ -4,7 +4,30 @@
   justify-content: center;
   align-items: center;
  }
- 
+
+ nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+.nlink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+
  
  
  
@@ -13,12 +36,22 @@
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
-    
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+  
+   }
 
 }
-@media (min-width: 1025px) {
-    
+@media (min-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  
+   }
        
       
       
