@@ -73,11 +73,35 @@
 ==================================== */
 
 @media (min-width: 768px) {
-  nav {
+  body {
+    display: flex;
+    flex-direction: column;
+   }
+  
+   nav {
     display: flex;
     flex-direction: row;
-    flex-basis: auto;
+    justify-content: space-between;
+    
+   }
   
+  .name {
+    display:inline;
+   }
+  
+  .nlink {
+    display: inline;
+   }
+  
+   header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .intro {
+    order: -1;
    }
 
 }
