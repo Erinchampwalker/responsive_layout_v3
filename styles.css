@@ -16,6 +16,7 @@ body {
 header {
  background-color: rgb(247, 247, 247);
  padding: 2rem;
+ margin-top: 1.25rem;
 
 }
 
@@ -86,6 +87,7 @@ nav {
 
 contact {
     background-color: rgb(247, 247, 247);
+    width: 100%;
 }
 
 .boldtext {
@@ -100,19 +102,29 @@ footer {
 
 .footerlink {
   font-size: 0.95rem;
+  padding: 0px;
 }
 
 
   /* ---- Page Elements ---- */
 
-
+.work {
+    text-align: center;
+}
   /* ================================= 
   Media Queries
 ==================================== */
 
+@media (max-width: 767px) {
+footer ul {
+display: none;
+}
+
+}
+
 @media (min-width: 768px) {
 ul {
-  width:auto;
+    width: auto;
 }
 a {
   padding: 1rem;
@@ -124,6 +136,23 @@ a {
   margin: 0px;
 }
 
+.flink {
+display: none;
 }
-@media (min-width: 1024px) {}
+
+}
+@media (min-width: 1024px) {
+header {
+    margin: 0px;
+}
+
+.work {
+display: inline;
+}
+
+.flink {
+    display: none;
+    }
+
+}
 
