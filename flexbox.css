@@ -41,19 +41,25 @@
   align-items: center;
  }
 
- contact{
+ contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-content:center;
  }
 
  footer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content:space-between;
   align-items: center;
+  align-content:center;
+  margin:auto;
+  padding: 1.5rem;
  }
 
 
