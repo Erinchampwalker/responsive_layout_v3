@@ -25,18 +25,27 @@ ul {
     list-style: none;
     width: 100%;
   }
+
   p {
-      font-size: .95em;
-      margin-bottom: 1.8em;
+    font-size: .95em;
+    padding: 1rem;
+    margin: 0;
   }
+
   h2,
   h3,
   a {
-      color: rgb(44, 44, 44);
+    color: rgb(44, 44, 44);
   }
-  h2,
+  h2 {
+    padding: 2rem;
+    margin: 0;
+  }
+
   h3 {
-      margin-top: 0;
+    padding: 0.5rem; 
+    margin:0 ;
+
   }
   a {
       text-decoration: none;
@@ -67,8 +76,25 @@ nav {
    
 
   /* ---- Layout Containers ---- */
+.text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+}
+
+contact {
+    background-color: rgb(187, 187, 187);
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+
+
+}
+
 
   /* ---- Page Elements ---- */
+
 
   /* ================================= 
   Media Queries
