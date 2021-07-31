@@ -120,6 +120,18 @@
     flex-basis: 50%;
    }
 
+   skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:flex-start;
+   }
+
+   .skilltype {
+    flex-basis: 33%;
+   }
+
 }
 @media (min-width: 1024px) {
   body {
@@ -159,6 +171,18 @@
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items:flex-start;
+   }
+
+   skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:flex-start;
+   }
+
+   .skilltype {
+    flex-basis: 33%;
    }
 
    .work {
