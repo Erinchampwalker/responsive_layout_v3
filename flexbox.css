@@ -46,7 +46,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   align-content:center;
@@ -55,6 +54,16 @@
  footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  padding: 1.5rem;
+ }
+
+ skills {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   align-content: center;

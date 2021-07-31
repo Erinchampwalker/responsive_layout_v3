@@ -74,8 +74,6 @@ nav {
 .name {
     padding: 15px;
 }
-
-
    
 
   /* ---- Layout Containers ---- */
@@ -105,12 +103,21 @@ footer {
   padding: 0px;
 }
 
-
+skills {
+background-color: blanchedalmond;
+width: 100%;
+}
   /* ---- Page Elements ---- */
 
 .work {
-    text-align: center;
+  text-align: center;
 }
+
+.skilltype {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
   /* ================================= 
   Media Queries
 ==================================== */
