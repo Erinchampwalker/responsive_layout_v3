@@ -25,6 +25,7 @@ ul {
     padding: 0;
     list-style: none;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
   }
 
   p {
@@ -37,6 +38,10 @@ ul {
   h3,
   a {
     color: rgb(44, 44, 44);
+  }
+
+  a:hover {
+    background-color: rgb(180, 180, 180);
   }
   h2 {
     padding: 2rem;
@@ -84,7 +89,7 @@ nav {
 }
 
 contact {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 
@@ -94,7 +99,7 @@ contact {
 
 footer {
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 247, 247);
     list-style: none;
 }
 
