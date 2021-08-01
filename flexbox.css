@@ -34,14 +34,14 @@
 
  }
 
- portfolio {
+ .portfolio {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
  }
 
- contact {
+ .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,7 +61,7 @@
   padding: 1.5rem;
  }
 
- skills {
+ .skills {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -102,13 +102,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-basis: 50%;
    }
 
    .intro {
     order: -1;
    }
 
-   portfolio {
+   .portfolio {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -120,7 +121,7 @@
     flex-basis: 50%;
    }
 
-   skills {
+   .skills {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -157,15 +158,21 @@
    header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
    }
 
    .intro {
     order: -1;
+    flex: 1;
    }
 
-   portfolio {
+   .profile-image {
+    flex: 1;
+
+   }
+
+   .portfolio {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -173,7 +180,7 @@
     align-items:flex-start;
    }
 
-   skills {
+   .skills {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
