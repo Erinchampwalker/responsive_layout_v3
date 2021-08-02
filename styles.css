@@ -156,6 +156,7 @@ display: none;
 @media (min-width: 1024px) {
 header {
     margin: 0px;
+    width: 100%;
 }
 
 .work {
