@@ -177,17 +177,13 @@ footer {
   padding-bottom: 2rem;
 }
 
+footer ul {
+  display: none;
+  }
+
   /* ================================= 
   Media Queries
 ==================================== */
-
-@media (max-width: 767px) {
-  
-footer ul {
-display: none;
-}
-
-}
 
 @media (min-width: 768px) {
 
@@ -251,6 +247,10 @@ a {
  .skilltype {
   flex-basis: 33%;
  }
+
+ footer ul {
+  display: inline;
+  }
 
 }
 
