@@ -1,0 +1,171 @@
+/* ================================= 
+  Page Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+ font-family: 'Noto Sans', sans-serif;
+ color:rgb(73, 73, 73); 
+ background:rgb(255, 255, 255);
+ margin: 0;
+}
+
+header {
+ background-color: rgb(247, 247, 247);
+ padding: 2rem;
+ margin-top: 1.25rem;
+
+}
+
+ul {
+    margin: 5px;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  p {
+    font-size: .95em;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  h2,
+  h3,
+  a {
+    color: rgb(44, 44, 44);
+  }
+
+  a:hover {
+    background-color: rgb(180, 180, 180);
+  }
+  h2 {
+    padding: 2rem;
+    margin: 0;
+  }
+
+  h3 {
+    padding: 0.5rem; 
+    margin:0 ;
+
+  }
+  a {
+      text-decoration: none;
+      font-size: 1.2rem;
+  }
+  img {
+      max-width: 100%;
+      padding: 20px;
+  }
+
+  /* ---- Navigation ---- */
+
+nav {
+    width: 95%;
+    margin: 0 auto;
+    
+    }
+
+.nlink {
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,0.4);
+    padding:10px;
+    margin: 10px;
+}
+
+.name {
+    padding: 15px;
+}
+   
+
+  /* ---- Layout Containers ---- */
+.text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+}
+
+contact {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.boldtext {
+  font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    list-style: none;
+}
+
+.footerlink {
+  font-size: 0.95rem;
+  padding: 0px;
+}
+
+.skills {
+background-color: blanchedalmond;
+width: 100%;
+}
+  /* ---- Page Elements ---- */
+
+.work {
+  text-align: center;
+}
+
+.skilltype {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+  /* ================================= 
+  Media Queries
+==================================== */
+
+@media (max-width: 767px) {
+footer ul {
+display: none;
+}
+
+}
+
+@media (min-width: 768px) {
+ul {
+    width: auto;
+}
+a {
+  padding: 1rem;
+}
+
+.nlink {
+  box-shadow:none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.flink {
+display: none;
+}
+
+}
+@media (min-width: 1024px) {
+header {
+    margin: 0px;
+    width: 100%;
+}
+
+.work {
+display: inline;
+}
+
+.flink {
+    display: none;
+    }
+
+}
+
