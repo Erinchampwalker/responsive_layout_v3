@@ -11,13 +11,19 @@ body {
  color:rgb(73, 73, 73); 
  background:rgb(255, 255, 255);
  margin: 0;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 header {
  background-color: rgb(247, 247, 247);
  padding: 2rem;
- margin-top: 1.25rem;
-
+ margin-top: 1.25rem;display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 ul {
@@ -43,6 +49,7 @@ ul {
   a:hover {
     background-color: rgb(180, 180, 180);
   }
+
   h2 {
     padding: 2rem;
     margin: 0;
@@ -51,15 +58,16 @@ ul {
   h3 {
     padding: 0.5rem; 
     margin:0 ;
+  }
 
-  }
   a {
-      text-decoration: none;
-      font-size: 1.2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
   }
+
   img {
-      max-width: 100%;
-      padding: 20px;
+    max-width: 100%;
+    padding: 20px;
   }
 
   /* ---- Navigation ---- */
@@ -67,41 +75,77 @@ ul {
 nav {
     width: 95%;
     margin: 0 auto;
-    
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .nlink {
     box-shadow: 0 10px 20px -10px rgba(0,0,0,0.4);
     padding:10px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .name {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
    
 
   /* ---- Layout Containers ---- */
+
 .text {
     padding-left: 3rem;
     padding-right: 3rem;
     text-align: center;
 }
 
-contact {
+.contact {
     background-color: rgb(255, 255, 255);
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .boldtext {
   font-weight: 700;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
 footer {
     width: 100%;
     background-color: rgb(247, 247, 247);
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 1.5rem;
 }
+
+footer ul {
+  display: none;
+  }
 
 .footerlink {
   font-size: 0.95rem;
@@ -109,13 +153,22 @@ footer {
 }
 
 .skills {
-background-color: blanchedalmond;
-width: 100%;
+  background-color: blanchedalmond;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  padding: 1.5rem;
 }
-  /* ---- Page Elements ---- */
 
-.work {
+.skill_container {
+  background-color: blanchedalmond;
+  width: 100%;
   text-align: center;
+  margin-top: 3rem;
 }
 
 .skilltype {
@@ -123,21 +176,20 @@ width: 100%;
   padding-bottom: 2rem;
 }
 
+.work {
+  text-align: center;
+}
+
   /* ================================= 
   Media Queries
 ==================================== */
 
-@media (max-width: 767px) {
-footer ul {
-display: none;
-}
-
-}
-
 @media (min-width: 768px) {
+
 ul {
     width: auto;
 }
+
 a {
   padding: 1rem;
 }
@@ -146,26 +198,88 @@ a {
   box-shadow:none;
   padding: 0px;
   margin: 0px;
+  display: inline;
 }
 
 .flink {
-display: none;
+  display: none;
 }
 
+ nav {
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.name {
+  display:inline;
+}
+
+ header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+ .intro {
+  order: -1;
+}
+
+ .portfolio {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items:flex-start;
+}
+
+ .work {
+  flex-basis: 50%;
+}
+
+ .skills {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items:flex-start;
+}
+
+ .skilltype {
+  flex-basis: 33%;
+ }
+
+ footer ul {
+  display: inline;
+  }
+
+}
+
 @media (min-width: 1024px) {
+
 header {
     margin: 0px;
     width: 100%;
 }
 
+nav {
+  flex-direction: row;
+}
+
 .work {
 display: inline;
+flex-basis: 33%;
+}
+
+.intro {
+  flex: 1;
+}
+
+ .profile-image {
+  flex: 1;
 }
 
 .flink {
     display: none;
-    }
+}
 
 }
 
