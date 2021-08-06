@@ -89,16 +89,10 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.name {
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-   
+}  
 
   /* ---- Layout Containers ---- */
 
@@ -140,7 +134,7 @@ footer {
     align-items: center;
     align-content: center;
     margin: auto;
-    padding: 1.5rem;
+    padding: 1.0rem;
 }
 
 footer ul {
